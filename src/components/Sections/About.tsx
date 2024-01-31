@@ -2,13 +2,19 @@
 import React from "react";
 import SectionHeading from "../Shared/SectionHeading";
 import { motion } from "framer-motion";
+import useSectionInView from "@/hook/useSectionInView";
+
 const About = () => {
+  const { ref } = useSectionInView("About", 0.75);
+
   return (
     <motion.section
-      className=" mb-28 max-w-[45rem] text-center leading-8"
+      ref={ref}
+      className="mb-28 max-w-[45rem] scroll-mt-28 text-center leading-8"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
+      id="about"
     >
       <SectionHeading text="About me" />
       <p className="mb-3">

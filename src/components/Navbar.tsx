@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 
-const Header = () => {
+const Navbar = () => {
   return (
     <header className="relative z-[999]">
       <motion.div
@@ -35,4 +35,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

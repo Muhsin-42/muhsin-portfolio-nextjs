@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .btn-primary {
+    @apply flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white transition hover:scale-105 hover:bg-gray-950 focus:scale-105 active:scale-105;
+  }
+  .btn-secondary {
+    @apply flex items-center gap-2 rounded-full bg-white px-7 py-3 transition hover:scale-105 hover:bg-gray-100 focus:scale-105 active:scale-105 border border-black/10;
+  }
+}

@@ -35,28 +35,25 @@ export const LINKS = [
 
 export const EXPERIENCES_DATA = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    title: "MERN Stack Developer",
+    location: "Torc Infotech, Ernakulam",
+    description: `Worked with a Saudi-based client, where i engaged with diverse technologies including Next.js 13, React.js, TypeScript, Tailwind CSS, ShadCn, Node.js, Express, and MongoDB.`,
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023",
+  },
+  {
+    title: "Freelance Developer",
+    location: "Smart Crystals, Kochi",
+    description: `Worked as a Freelance Developer for a Client called Smart Crystals to build and deploy their platform. Technologies: React, TypeScript, Tailwind CSS, NodeJs, MongoDB.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
+  },
+  {
+    title: "MERN Stack Developer",
+    location: "Brototype, Ernakulam",
+    description: `Was a MERN Stack Development Trainee at Brototype, where I honed skills in JavaScript, TypeScript, React.js, Tailwind CSS, MongoDB, Node.js, Express, and Socket.io.`,
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2023",
   },
 ] as const;
 
@@ -85,23 +82,23 @@ export const PROJECT_DATA = [
 ] as const;
 
 export const SKILLS_DATA = [
-  "HTML",
+  "HTML5",
   "CSS",
+  "SCSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Tailwind",
+  "ShadCn",
+  "MaterialUi",
   "Framer Motion",
+  "Node.js",
+  "Express",
+  "Git",
+  "MongoDB",
+  "Docker",
+  "Aws",
+  "Nginx",
 ] as const;

@@ -6,9 +6,11 @@ import Link from "next/link";
 import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import useSectionInView from "@/hook/useSectionInView";
+import { useActiveSectionContext } from "@/context/activeSectionContext";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home");
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
       ref={ref}
@@ -71,7 +73,14 @@ const Intro = () => {
           delay: 0.1,
         }}
       >
-        <Link href={"#contact"} className="btn-primary group">
+        <Link
+          href={"#contact"}
+          className="btn-primary group"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
+        >
           Contact me here
           <BsArrowRight className="transition group-hover:translate-x-1" />
         </Link>

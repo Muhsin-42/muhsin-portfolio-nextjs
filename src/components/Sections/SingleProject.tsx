@@ -29,7 +29,7 @@ export function SingleProject({
     >
       <section
         ref={ref}
-        className="relative max-w-[42rem] cursor-pointer overflow-hidden  rounded-lg border border-black/5 bg-gray-200 transition hover:bg-slate-200 group-even:pl-8  sm:h-[20rem] sm:pr-8"
+        className="border-black-5 relative max-w-[42rem] cursor-pointer  overflow-hidden rounded-lg bg-gray-200 transition hover:bg-slate-200 group-even:pl-8  sm:h-[20rem] sm:pr-8"
       >
         <div className="flex h-full flex-col px-5 pb-7 pt-4 group-even:ml-[18rem] sm:max-w-[50%] sm:pl-10 sm:pr-2 sm:pt-10">
           <h3 className="text-2xl font-semibold">{title}</h3>

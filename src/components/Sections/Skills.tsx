@@ -39,7 +39,7 @@ const Skills = () => {
             }}
             custom={index}
             key={index}
-            className="rounded-xl border border-black/10 bg-white px-5 py-3"
+            className="border-black-10 rounded-xl bg-white px-5 py-3"
           >
             {skill}
           </motion.li>

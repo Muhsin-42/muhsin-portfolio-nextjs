@@ -60,23 +60,49 @@ export const EXPERIENCES_DATA = [
 export const PROJECT_DATA = [
   {
     title: "Bird",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    description: `Full-Stack multi threaded social media web app built
+      using NextJS 14, which allows users to post tweets, like, engage in discussions, bookmark &  also follow other users.`,
+    tags: [
+      "Next.js 14",
+      "React",
+      "Typescript",
+      "Tailwind",
+      "ShadCn",
+      "Zod",
+      "MongoDB",
+      "Server Action",
+    ],
     imageUrl: corpcommentImg,
   },
   {
     title: "Binge",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    description: `Binge is a fusion of IMDB and social media, bringing movie
+      enthusiasts together in a vibrant community.`,
+    tags: [
+      "React",
+      "SCSS",
+      "Material-Ui",
+      "Redux",
+      "NodeJs",
+      "MongoDb",
+      "Firebase",
+      "Socket.io",
+    ],
     imageUrl: rmtdevImg,
   },
   {
     title: "Watch Club",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    description: `E-commerce website where users can buy watches. It also has a customized admin panel to manage products, orders, sales reports, etc.`,
+    tags: [
+      "HTML5",
+      "SCSS",
+      "BootStrap",
+      "Nodejs",
+      "Express",
+      "Ejs",
+      "MongoDB",
+      "MVC",
+    ],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -96,9 +122,21 @@ export const SKILLS_DATA = [
   "Framer Motion",
   "Node.js",
   "Express",
-  "Git",
+  "Rest Api",
+  "MVC ARchitecture",
   "MongoDB",
+  "MySql",
+  "Redis",
+  "Git",
   "Docker",
   "Aws",
   "Nginx",
+  "JWT",
+  "Socket.io",
+  "ESLint",
+  "Prettier",
+  "Husky",
+  "Chart.js",
+  "PayPal",
+  "Razorpay",
 ] as const;

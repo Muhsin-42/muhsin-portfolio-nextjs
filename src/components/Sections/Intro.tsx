@@ -6,9 +6,11 @@ import Link from "next/link";
 import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import useSectionInView from "@/hook/useSectionInView";
+import { useActiveSectionContext } from "@/context/activeSectionContext";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home");
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
       ref={ref}
@@ -55,12 +57,14 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">{"Hello, I'm Muhsin."}</span>
+        <span className="font-bold">{"Hey, I'm Muhsin."}</span>
         {` I'm a `}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">1.5 years</span> of experience. I enjoy
-        building <span className="italic">things</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        building <span className="italic">things</span>. Proficient with{" "}
+        <span className="underline">React</span>
+        {" / "}
+        <span className="underline">Next.js</span>.
       </motion.h1>
 
       <motion.div
@@ -71,7 +75,14 @@ const Intro = () => {
           delay: 0.1,
         }}
       >
-        <Link href={"#contact"} className="btn-primary group">
+        <Link
+          href={"#contact"}
+          className="btn-primary group"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
+        >
           Contact me here
           <BsArrowRight className="transition group-hover:translate-x-1" />
         </Link>

@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "../../public/corpcomment.png";
-import rmtdevImg from "../../public/rmtdev.png";
-import wordanalyticsImg from "../../public/wordanalytics.png";
+import birdImg from "../../public/bird.webp";
+import bingeImg from "../../public/binge.webp";
+import watchClubImg from "../../public/watch-club.webp";
 
 export const LINKS = [
   {
@@ -72,7 +72,8 @@ export const PROJECT_DATA = [
       "MongoDB",
       "Server Action",
     ],
-    imageUrl: corpcommentImg,
+    imageUrl: birdImg,
+    url: "https://bird-eight-tan.vercel.app/",
   },
   {
     title: "Binge",
@@ -88,7 +89,8 @@ export const PROJECT_DATA = [
       "Firebase",
       "Socket.io",
     ],
-    imageUrl: rmtdevImg,
+    imageUrl: bingeImg,
+    url: "https://binge-chat.netlify.app/home",
   },
   {
     title: "Watch Club",
@@ -103,7 +105,8 @@ export const PROJECT_DATA = [
       "MongoDB",
       "MVC",
     ],
-    imageUrl: wordanalyticsImg,
+    imageUrl: watchClubImg,
+    url: "https://watch-club.onrender.com/",
   },
 ] as const;
 

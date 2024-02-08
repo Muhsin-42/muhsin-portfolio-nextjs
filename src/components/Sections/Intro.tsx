@@ -62,8 +62,8 @@ const Intro = () => {
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">1.5 years</span> of experience. I enjoy
         building <span className="italic">things</span>. Proficient with{" "}
-        <span className="underline">React</span>
-        {" / "}
+        <span className="underline">MERN</span>
+        {" + "}
         <span className="underline">Next.js</span>.
       </motion.h1>
 
@@ -87,7 +87,7 @@ const Intro = () => {
           <BsArrowRight className="transition group-hover:translate-x-1" />
         </Link>
         <Link
-          href={"/resume.pdf"}
+          href={"/MUHSIN-A-NISSAR-RESUME.pdf"}
           target="_blank"
           className="btn-secondary group"
           download

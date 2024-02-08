@@ -5,7 +5,11 @@ const SubmitBtn = () => {
   const { pending } = useFormStatus();
 
   return (
-    <button type="submit" className="btn-primary group w-52" disabled={pending}>
+    <button
+      type="submit"
+      className="btn-primary group w-52 dark:bg-white/10"
+      disabled={pending}
+    >
       {pending ? (
         <div className="loader-primary"></div>
       ) : (

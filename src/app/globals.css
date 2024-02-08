@@ -8,7 +8,7 @@
           disabled:bg-opacity-65 disabled:scale-100;
   }
   .btn-secondary {
-    @apply flex items-center gap-2 rounded-full bg-white px-7 py-3 transition hover:scale-105 hover:bg-gray-100 focus:scale-105 active:scale-105 border border-black/10;
+    @apply flex items-center gap-2 rounded-full bg-white px-7 py-3 transition hover:scale-105 hover:bg-gray-100 focus:scale-105 active:scale-105 border border-black/10 dark:bg-white/10 dark:text-white/60;
   }
   .loader-primary {
     @apply size-5 animate-spin rounded-full border-b-2 border-white;
@@ -23,4 +23,8 @@
 
 html {
   --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
 }

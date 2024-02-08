@@ -14,7 +14,7 @@ const Intro = () => {
   return (
     <section
       ref={ref}
-      className="relative mb-28 max-w-[50rem] scroll-mt-96"
+      className="relative mb-10 max-w-[50rem] scroll-mt-96"
       id="home"
     >
       <div className="flex items-center justify-center">
@@ -98,7 +98,7 @@ const Intro = () => {
         <Link
           href={"https://www.linkedin.com/in/muhsin-a-nissar/"}
           target="_blank"
-          className="btn-secondary group"
+          className="btn-secondary group "
         >
           <BsLinkedin className="" />
         </Link>

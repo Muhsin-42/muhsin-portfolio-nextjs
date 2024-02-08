@@ -28,7 +28,7 @@ const ContactUs = () => {
 
   return (
     <motion.section
-      className="mb-20 w-[min(100%,38rem)] sm:mb-28"
+      className="mb-20 w-[min(100%,38rem)] scroll-mt-28 sm:mb-28"
       id="contact"
       ref={ref}
       initial={{
@@ -40,17 +40,20 @@ const ContactUs = () => {
       }}
     >
       <SectionHeading text="Contact me" />
-      <p className="-mt-5 text-wrap text-center text-gray-700">
+      <p className="-mt-5 text-wrap text-center text-gray-700 dark:text-white/80">
         Please contact me directly at{" "}
         <a href="mailto:muhsinofficial21@gmail.com" className="underline">
           muhsinofficial21@gmail.com
         </a>
       </p>
-      <form className="mt-8 flex flex-col gap-3" action={handleSubmit}>
+      <form
+        className="mt-8 flex flex-col gap-3  dark:text-black"
+        action={handleSubmit}
+      >
         <input
           type="email"
           name="email"
-          className="border-black-10 h-14 rounded-lg px-4"
+          className="border-black-10 h-14 rounded-lg px-4 transition-all dark:bg-white/80 dark:outline-none dark:focus:bg-white/100"
           placeholder="You email"
           required
           maxLength={500}
@@ -61,7 +64,7 @@ const ContactUs = () => {
           required
           name="message"
           maxLength={2000}
-          className="border-black-10 my-3 h-52 rounded-lg p-4"
+          className="border-black-10 my-3 h-52 rounded-lg p-4 transition-all dark:bg-white/80 dark:outline-none dark:focus:bg-white/100"
           id=""
           placeholder="Your message"
         ></textarea>

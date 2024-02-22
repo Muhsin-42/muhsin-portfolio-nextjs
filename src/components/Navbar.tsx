@@ -36,7 +36,7 @@ const Navbar = () => {
                 className={clsx(
                   "relative flex w-full items-center justify-center p-3 hover:text-gray-950 dark:text-gray-500 dark:hover:text-gray-300",
                   {
-                    "dark:text-gray-300": link.name === activeSection,
+                    "dark:!text-gray-300": link.name === activeSection,
                   }
                 )}
               >

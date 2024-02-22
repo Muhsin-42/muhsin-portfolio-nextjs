@@ -59,8 +59,9 @@ const Intro = () => {
       >
         <span className="font-bold">{"Hey, I'm Muhsin."}</span>
         {` I'm a `}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">1.5 years</span> of experience. I enjoy
+        <span className="font-bold">Full-Stack Developer</span> with{" "}
+        <span className="font-bold">1.5 years</span> of experience &{" "}
+        <span className="font-bold">4+ Years</span> of Coding Passion. I enjoy
         building <span className="italic">things</span>. Proficient with{" "}
         <span className="underline">MERN</span>
         {" + "}
@@ -89,7 +90,7 @@ const Intro = () => {
         <Link
           href={"/MUHSIN-A-NISSAR-RESUME.pdf"}
           target="_blank"
-          className="btn-secondary group"
+          className="btn-secondary group dark:!text-gray-300"
           download
         >
           Download CV

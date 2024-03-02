@@ -88,6 +88,7 @@ const Intro = () => {
           <BsArrowRight className="transition group-hover:translate-x-1" />
         </Link>
         <Link
+          key={"resume-btn"}
           href={"/MUHSIN-A-NISSAR-RESUME.pdf"}
           target="_blank"
           className="btn-secondary group dark:!text-gray-300"
@@ -97,6 +98,7 @@ const Intro = () => {
           <HiDownload className="transition group-hover:translate-y-1" />
         </Link>
         <Link
+          key={"linkedin-btn"}
           href={"https://www.linkedin.com/in/muhsin-a-nissar/"}
           target="_blank"
           className="btn-secondary group "
@@ -104,6 +106,7 @@ const Intro = () => {
           <BsLinkedin className="" />
         </Link>
         <Link
+        key={'github-btn'}
           href={"https://github.com/Muhsin-42"}
           target="_blank"
           className="btn-secondary"

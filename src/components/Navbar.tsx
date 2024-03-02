@@ -34,9 +34,9 @@ const Navbar = () => {
               <Link
                 href={link.hash}
                 className={clsx(
-                  "relative flex w-full items-center justify-center p-3 hover:text-gray-950 dark:text-gray-500 dark:hover:text-gray-300",
+                  "relative flex w-full items-center justify-center p-3 hover:text-gray-950 dark:text-gray-300 dark:hover:text-gray-300",
                   {
-                    "dark:!text-gray-300": link.name === activeSection,
+                    "dark:!text-white": link.name === activeSection,
                   }
                 )}
               >
@@ -49,7 +49,7 @@ const Navbar = () => {
                       stiffness: 380,
                       damping: 30,
                     }}
-                    className="absolute inset-0 -z-10 rounded-full bg-slate-200 dark:bg-gray-800"
+                    className="absolute inset-0 -z-10 mt-1 rounded-full bg-slate-200 py-0 dark:bg-gray-800"
                   ></motion.span>
                 )}
               </Link>

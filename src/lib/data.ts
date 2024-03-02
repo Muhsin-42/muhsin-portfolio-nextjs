@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import birdImg from "../../public/bird.webp";
 import bingeImg from "../../public/binge.webp";
 import watchClubImg from "../../public/watch-club.webp";
+import pdfGenieImg from "../../public/pdf-genie.webp";
 
 export const LINKS = [
   {
@@ -107,6 +108,23 @@ export const PROJECT_DATA = [
     ],
     imageUrl: watchClubImg,
     url: "https://watch-club.onrender.com/",
+  },
+  {
+    title: "PDF Genie",
+    description: `Pdf-Genie - An AI powered application where you can have seamless interaction with your pdfs.`,
+    tags: [
+      "Next.js",
+      "Tailwind",
+      "NodeJs",
+      "Redis",
+      "S3 Bucket",
+      "OpenAi",
+      "CI/CD",
+      "Nginx",
+      "TypeScript",
+    ],
+    imageUrl: pdfGenieImg,
+    url: "https://pdf-genie-ai.vercel.app/",
   },
 ] as const;
 

@@ -107,7 +107,7 @@ export const PROJECT_DATA = [
       "MVC",
     ],
     imageUrl: watchClubImg,
-    url: "https://watch-club.onrender.com/",
+    url: "https://watch-club.muhsin-a-nissar.tech",
   },
   {
     title: "PDF Genie",

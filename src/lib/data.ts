@@ -74,7 +74,7 @@ export const PROJECT_DATA = [
       "Server Action",
     ],
     imageUrl: birdImg,
-    url: "https://bird-eight-tan.vercel.app/",
+    url: "https://bird-next.vercel.app/",
   },
   {
     title: "Binge",

@@ -139,9 +139,10 @@ export const PROJECT_DATA = [
 export const SKILLS_DATA = [
   "Next.js",
   "React",
-
+  "React Native",
   "TypeScript",
   "JavaScript",
+  "Clean Architecture",
   "Redux",
   "Express",
   "Node.js",

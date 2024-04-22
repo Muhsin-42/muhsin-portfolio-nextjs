@@ -115,7 +115,7 @@ export const PROJECT_DATA = [
       "EC2",
     ],
     imageUrl: watchClubImg,
-    url: "https://watch-club.muhsin-a-nissar.tech",
+    url: "https://watchclub.up.railway.app/",
   },
   {
     title: "PDF Genie",
@@ -139,6 +139,7 @@ export const PROJECT_DATA = [
 export const SKILLS_DATA = [
   "Next.js",
   "React",
+
   "TypeScript",
   "JavaScript",
   "Redux",
